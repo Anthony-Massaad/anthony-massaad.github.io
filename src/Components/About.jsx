@@ -71,10 +71,10 @@ function About(){
 								</FadeInTop>
 							</div>
 							<div className="bio">
-								<FadeInTop delay="1.2s">
+								<FadeInTop delay="1.3s">
 									<SmallTitle text="Hello," color="green" />
 								</FadeInTop>
-								<FadeInTop delay="1.3s">
+								<FadeInTop delay="1.4s">
 									<MediumText>
 										I am a third-year software engineering student at Carleton University. I am passionate about collaborating with other ambitious people and using 
 										software development to solve complex problems that bring value to others. I have experience in a variety of programming languages, 

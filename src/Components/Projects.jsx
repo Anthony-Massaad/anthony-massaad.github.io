@@ -61,7 +61,7 @@ function Projects(){
                                     return <Project key={idx} name={project.name} language={project.language} content={project.content} githubURL={project.github} imgURL={project.imgUrl} />
                                 })}
                             </ul>
-                            <Fade bottom delay={400}>
+                            <Fade bottom delay={200}>
                                 <ButtonTwo link="https://github.com/Anthony-Massaad" text="Check out my Github for More!" />
                             </Fade>
                         </WaitTimer>  

@@ -110,7 +110,7 @@ function Skills(){
 
     return(
 		<PageSection id="skill">
-			<div className="container container-medium position-relative"> 
+			<div className="container container-medium position-relative skills-content"> 
 				<Skill title="Programming" items={programming} />
 				<Skill title="Tools and Technology" items={technology} />
 				<Skill title="Programming Concepts" items={concepts} /> 
