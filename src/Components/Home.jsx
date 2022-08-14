@@ -11,6 +11,7 @@ import FadeInTop from "./Animations/FadeInTop";
 import BigTitle from "./Text/BigTitle";
 import TxtOutline from "./Text/TxtOutline";
 import PageSection from "./Containers/PageSection";
+import WaitTimer from "./Sides/WaitTimer";
 
 function Introduction(){
     const [isBounce, setIsBounce] = useState(false);
@@ -109,11 +110,11 @@ function Skills(){
 
     return(
 		<PageSection id="skill">
-            <div className="container container-medium position-relative"> 
+			<div className="container container-medium position-relative"> 
 				<Skill title="Programming" items={programming} />
 				<Skill title="Tools and Technology" items={technology} />
 				<Skill title="Programming Concepts" items={concepts} /> 
-            </div>
+			</div>
 			<BackgroundImage id="skills" />
 		</PageSection>
     );
