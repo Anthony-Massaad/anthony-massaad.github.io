@@ -29,13 +29,17 @@ section{
     overflow: hidden;
 }
 
-
 header{
     padding: 1rem;
     position: fixed;
     width: 100%;
     font-size: 18px;
     z-index: 10!important;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
 }
 
 header #name{
@@ -80,7 +84,6 @@ header nav a:hover::after{
     width: 100%;
 }
 
-
 .standard-link{
     color: orange;
 }
@@ -95,11 +98,13 @@ header nav a:hover::after{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
     position: relative;
     background-color: black;
     border-radius: 50%;
     transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 .button-style-1::after{
@@ -113,7 +118,12 @@ header nav a:hover::after{
     border-radius: inherit;
     box-sizing: content-box;
     transition: inherit;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit; 
     box-shadow: 0 0 0 3px white;
+    -webkit-box-shadow: 0 0 0 3px white;
+    -moz-box-shadow: 0 0 0 3px white;
 }
 
 .button-style-1:hover{
@@ -124,7 +134,12 @@ header nav a:hover::after{
 .button-style-1:hover::after{
     opacity: 1;
     transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
     box-shadow: 0 0 0 3px white;
+    -webkit-box-shadow: 0 0 0 3px white;
+    -moz-box-shadow: 0 0 0 3px white;
 }
 
 .link-container{
@@ -134,6 +149,9 @@ header nav a:hover::after{
 .button-style-2 {
     color: white;
     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
     position: relative;
     padding: 0.5rem 1rem;
     display: inline-block;
@@ -153,11 +171,17 @@ header nav a:hover::after{
     height: 100%;
     background-color: rgba(255,255,255,0.1);
     transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 .button-style-2:hover::before {
     opacity: 0;
     transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
 }
 
 .button-style-2::after {
@@ -169,13 +193,22 @@ header nav a:hover::after{
     height: 100%;
     opacity: 0;
     transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
     border: 2px solid rgba(255,255,255,0.5);
     transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
 }
 
 .button-style-2:hover::after {
     opacity: 1;
     transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
 }
 
 .flex{
@@ -220,10 +253,6 @@ header nav a:hover::after{
     color: orange;
 }
 
-.justify-text{
-    text-align: justify;
-}
-
 .position-relative{
     position: relative;
 }
@@ -260,14 +289,6 @@ header nav a:hover::after{
     font-weight: 700;
 }
 
-.rotate-45deg{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-
-}
-
 .background-h1{
     position: absolute;
     top: 200px;
@@ -279,6 +300,9 @@ header nav a:hover::after{
     height: 25rem;
     background-image: url(.././images/hello.svg);
     background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0;
     visibility: hidden;
@@ -288,6 +312,9 @@ header nav a:hover::after{
     height: 25rem;
     background-image: url(.././images/skills.svg);
     background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0;
     visibility: hidden;
@@ -297,6 +324,9 @@ header nav a:hover::after{
     height: 25rem;
     background-image: url(.././images/about.svg);
     background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0;
     visibility: hidden;
@@ -306,6 +336,9 @@ header nav a:hover::after{
     height: 25rem;
     background-image: url(.././images/projects.svg);
     background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0;
     visibility: hidden;
@@ -318,7 +351,7 @@ header nav a:hover::after{
 
 #about-me, #project-section{
     padding-top: 100px;
-    min-height: 1080px;
+    min-height: 100vh;
 }
 
 #contact-me{
@@ -338,6 +371,9 @@ header nav a:hover::after{
 #contact-me span{
     display: block;
     transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
     position: relative;
     font-weight: 700;
     letter-spacing: 3px;
@@ -352,6 +388,9 @@ header nav a:hover::after{
     position: absolute;
     width: 2px;
     transform: inherit;
+    -moz-transform:  inherit;
+    -webkit-transform: inherit;
+    -o-transform: inherit;
     height: 25px;
     background-color: #DCE0D0;
     top: -2px;
@@ -365,7 +404,6 @@ header nav a:hover::after{
     right: -20px;
     top: -3px;
 }
-
 
 .social img{
     width: 3rem;
@@ -454,11 +492,16 @@ header nav a:hover::after{
     width: inherit;
     height: inherit;
     display: inline-block;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
 }
 
 /** HOME CSS */ 
 
 /** Skills CSS */
+
 .skill-section{
     margin: 3rem 0;
     text-align: center;
@@ -489,6 +532,9 @@ header nav a:hover::after{
     bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     width: 75%;
 }
 
@@ -496,6 +542,8 @@ header nav a:hover::after{
     max-width: 30rem;
     width: 100%;
     box-shadow: 0px 0px 29px 5px black;
+    -webkit-box-shadow: 0px 0px 29px 5px black;
+    -moz-box-shadow: 0px 0px 29px 5px black;
 }
 
 .experience-section{
