@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.dc61068d.js",
+    "main.js": "/static/js/main.9f4e18a0.js",
     "static/media/tony.jpg": "/static/media/tony.6e0fb7f8a728a402d795.jpg",
     "static/media/AnthonyMassaadResume.pdf": "/static/media/AnthonyMassaadResume.4ed5fcfa8c766dd8b43a.pdf",
     "static/media/Grades.pdf": "/static/media/Grades.d4c8a761b8b040096450.pdf",
@@ -13,9 +13,9 @@
     "static/media/at.svg": "/static/media/at.27d50eb5ad2e6ba1d361f771a15cbe74.svg",
     "static/media/linkedin-square.svg": "/static/media/linkedin-square.2a9cfa10b59e60a90a2c005cd71f79bf.svg",
     "index.html": "/index.html",
-    "main.dc61068d.js.map": "/static/js/main.dc61068d.js.map"
+    "main.9f4e18a0.js.map": "/static/js/main.9f4e18a0.js.map"
   },
   "entrypoints": [
-    "static/js/main.dc61068d.js"
+    "static/js/main.9f4e18a0.js"
   ]
 }
