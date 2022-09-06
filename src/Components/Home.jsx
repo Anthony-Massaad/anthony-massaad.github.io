@@ -40,7 +40,7 @@ function Introduction(){
 				<FadeInTop delay="1.1s">
 					<BigTitle>
 						I'm Anthony Massaad, a <TxtOutline>Software Engineering Student</TxtOutline> at Carleton University. 
-						Currently working as a web developer for Elections Canada
+						Currently working as a Software Developer for Irdeto.
 					</BigTitle>
 				</FadeInTop>
                 <ul className="home-ext-links">
