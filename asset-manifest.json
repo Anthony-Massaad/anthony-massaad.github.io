@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.621fbb71.js",
+    "main.js": "/static/js/main.a954cceb.js",
     "static/media/tony.jpg": "/static/media/tony.6e0fb7f8a728a402d795.jpg",
-    "static/media/AnthonyMassaadResume.pdf": "/static/media/AnthonyMassaadResume.2b4e06356e23203ca2c5.pdf",
+    "static/media/AnthonyMassaadResume.pdf": "/static/media/AnthonyMassaadResume.7de3a99058f3b1e2a800.pdf",
     "static/media/mail_icon_2.svg": "/static/media/mail_icon_2.d56e0ef8cd732b632bac.svg",
     "static/media/mail_icon.png": "/static/media/mail_icon.46940b2c2e72f22c5c91.png",
-    "static/media/Grades.pdf": "/static/media/Grades.d4c8a761b8b040096450.pdf",
+    "static/media/Grades.pdf": "/static/media/Grades.e129d5127300487c62d4.pdf",
     "static/media/VirtualShop.png": "/static/media/VirtualShop.fa3fd4a82277ed11da0a.png",
     "static/media/PathAlgo.png": "/static/media/PathAlgo.dfd42edd0e242c1128cd.png",
     "static/media/ChatBot.png": "/static/media/ChatBot.4707edc3f150d7aabce7.png",
@@ -16,9 +16,9 @@
     "static/media/linkedin-square.svg": "/static/media/linkedin-square.2a9cfa10b59e60a90a2c005cd71f79bf.svg",
     "index.html": "/index.html",
     "static/media/mail_icon.svg": "/static/media/mail_icon.673ee5c24cebb3a8cb975e2968792e81.svg",
-    "main.621fbb71.js.map": "/static/js/main.621fbb71.js.map"
+    "main.a954cceb.js.map": "/static/js/main.a954cceb.js.map"
   },
   "entrypoints": [
-    "static/js/main.621fbb71.js"
+    "static/js/main.a954cceb.js"
   ]
 }
