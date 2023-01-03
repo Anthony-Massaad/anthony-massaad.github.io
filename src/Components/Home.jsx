@@ -40,7 +40,7 @@ function Introduction(){
 				<FadeInTop delay="1.1s">
 					<BigTitle>
 						I'm Anthony Massaad, a <TxtOutline>Software Engineering Student</TxtOutline> at Carleton University. 
-						Currently looking for full time work for April 2023 - September 2023.
+						Currently looking for full time work for May 2023 - September 2023.
 					</BigTitle>
 				</FadeInTop>
                 <ul className="home-ext-links">
@@ -104,7 +104,7 @@ function Skill(props){
 
 
 function Skills(){
-	const programming = ["Python", "Java", "PHP", "Ejs", "C", "C++", "HTML", "CSS", "JavaScript", "SQL", "React", "XML"];
+	const programming = ["Python", "Java", "PHP", "Ejs", "C", "C++", "HTML", "CSS", "JavaScript", "SQL", "React", "XML", "Makefile"];
 	const technology = ["Linux", "Eclipse", "Intellij", "Node.js", "Express", "Socket.io", "Visual Studio Code", "Pycharm", "PhotoShop", "Git"];
 	const concepts = ["Operating Systems", "Object Oriented Programming", "Algorithms and Data Structure", "Data Modelling", "Software Design Patterns", "Data Architecture"];
 

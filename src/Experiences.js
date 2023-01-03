@@ -4,10 +4,10 @@ const experiences = [
         role: "Software Developer",
         date: ["September 2022 - January 2023"],
         content: [
-            `Provided manual assistance in maintaining the test framework and machines.`,
-            `Improved the logger implementation using python in one of Irdeto's software component, which now logs more effeciently and effectevely. This allows debugging to be much easier.`,
-            `Provided assistance in one of the major product release to a client, which resulted in developing in C and Makefile to support a dialect.`,
-            `In team collaboration, helped developed a slack bot keep using python to help keep track of merge requests (MR) from gitlab. This is done by sending a daily list of pending MRs, as well as post into channel of MRs sent.`
+            `Provided manual assistance in maintaining the test framework and machines. `,
+            `Improved the logger implementation using python in one of Irdeto’s software components, which now logs more efficiently and effectively. This allows debugging to be much easier.`,
+            `Aided in one of the major product releases to a client, which resulted in developing in C and in Makefile to support a dialect.`,
+            `In a team collaboration during corporal hackathon, we developed a slack bot using python to help track Merge Requests (MR) from GitLab. This is done by sending a daily list of pending MRs, as well as post into a specified channel of MRs sent. This helps keep organization and ensure everything is reviewed.`
         ]
     },
     {
@@ -33,5 +33,5 @@ const experiences = [
         ]
     },
 ];
-//November 2022 - PRESENT
+
 export default experiences;
