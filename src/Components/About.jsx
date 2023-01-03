@@ -14,13 +14,14 @@ import ContactMe from "./Sides/ContactMe";
 import WaitTimer from "./Sides/WaitTimer";
 
 function Experience(props){
+	console.log(props.date.length);
     return (
 		<Fade bottom>
 			<div className="experience">
 				<div className="timeline-icon flex"><img src={require("../images/locationIcon.png")} /></div>
 				<div className="info">
-					<span className="date">{props.date}</span>
-					<div className="content">
+					{props.date.map((item, idx) => <div style={idx != 0 ? {"top": `calc(16px * ${idx + 1}`, "marginTop": "0.5rem"} : {"top": `calc(16px * ${idx + 1}`}} className="date" key={idx}>{item}</div>)}
+					<div className={props.date.length > 1 ? "content extra-margin" : "content"} style={props.date.length > 1 ? {"--extra-margin": `${props.date.length}`} : null}>
 						<p className="title">{props.name}</p>
 						<p className="role">{props.role}</p>
 						<ul className="lst-items">

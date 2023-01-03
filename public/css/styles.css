@@ -621,7 +621,7 @@ header nav a:hover::after{
 
 .experience .info .date{
     width: 260px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     position: absolute;
     left: 0;
     top: 18px;
@@ -726,6 +726,10 @@ header nav a:hover::after{
 
     .experience .content{
         margin-left: 40px;
+    }
+
+    .experience .content.extra-margin{
+        margin-top: calc(0.8rem * var(--extra-margin));
     }
 
     .experience::before{

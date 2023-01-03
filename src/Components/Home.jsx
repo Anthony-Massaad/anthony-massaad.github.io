@@ -40,7 +40,7 @@ function Introduction(){
 				<FadeInTop delay="1.1s">
 					<BigTitle>
 						I'm Anthony Massaad, a <TxtOutline>Software Engineering Student</TxtOutline> at Carleton University. 
-						Currently working as a Software Developer for Irdeto.
+						Currently looking for full time work for April 2023 - September 2023.
 					</BigTitle>
 				</FadeInTop>
                 <ul className="home-ext-links">
@@ -63,7 +63,7 @@ function Introduction(){
                     <li>
 						<FadeInTop delay="1.4s">
 							<ButtonOneSocial link="mailto:massaadanthony@hotmail.com" label="Contact me via Email">
-								<img src={require("../images/at.svg").default} width="0" />
+								<img src={require("../images/mail_icon.svg").default} width="0" />
 								<span>Anthony Massaad Email Address</span>
 							</ButtonOneSocial>
 						</FadeInTop>
