@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.56009398.js",
+    "main.js": "/static/js/main.621fbb71.js",
     "static/media/tony.jpg": "/static/media/tony.6e0fb7f8a728a402d795.jpg",
     "static/media/AnthonyMassaadResume.pdf": "/static/media/AnthonyMassaadResume.2b4e06356e23203ca2c5.pdf",
+    "static/media/mail_icon_2.svg": "/static/media/mail_icon_2.d56e0ef8cd732b632bac.svg",
+    "static/media/mail_icon.png": "/static/media/mail_icon.46940b2c2e72f22c5c91.png",
     "static/media/Grades.pdf": "/static/media/Grades.d4c8a761b8b040096450.pdf",
     "static/media/VirtualShop.png": "/static/media/VirtualShop.fa3fd4a82277ed11da0a.png",
     "static/media/PathAlgo.png": "/static/media/PathAlgo.dfd42edd0e242c1128cd.png",
@@ -10,12 +12,13 @@
     "static/media/Monopoly.png": "/static/media/Monopoly.d666460b70b385f36e99.png",
     "static/media/Tetris.png": "/static/media/Tetris.ef75fce52a09ff1e6d84.png",
     "static/media/github-square.svg": "/static/media/github-square.0343552d62424f51b9559599e9f9ce9e.svg",
-    "static/media/at.svg": "/static/media/at.27d50eb5ad2e6ba1d361f771a15cbe74.svg",
+    "static/media/at.svg": "/static/media/at.27d50eb5ad2e6ba1d361.svg",
     "static/media/linkedin-square.svg": "/static/media/linkedin-square.2a9cfa10b59e60a90a2c005cd71f79bf.svg",
     "index.html": "/index.html",
-    "main.56009398.js.map": "/static/js/main.56009398.js.map"
+    "static/media/mail_icon.svg": "/static/media/mail_icon.673ee5c24cebb3a8cb975e2968792e81.svg",
+    "main.621fbb71.js.map": "/static/js/main.621fbb71.js.map"
   },
   "entrypoints": [
-    "static/js/main.56009398.js"
+    "static/js/main.621fbb71.js"
   ]
 }
